@@ -1,0 +1,41 @@
+name: flutter_app_core
+description: App Core Package.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: ">=3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # A powerful Http client for Dart, which supports Interceptors, FormData, Request Cancellation, File Downloading, Timeout etc.
+  dio: ^5.2.1+1
+
+  # A client library for authenticating with a remote service via OAuth2 on behalf of a user, and making authorized HTTP requests with the user's OAuth2 credentials.
+  oauth2: ^2.0.1
+
+  # Small, easy to use and extensible logger which prints beautiful logs.
+  logger: ^1.1.0
+
+  # Lock mechanism to prevent concurrent access to asynchronous code.
+  synchronized: ^3.1.0
+
+  # Flutter Secure Storage provides API to store data in secure storage. Keychain is used in iOS, KeyStore based solution is used in Android.
+  flutter_secure_storage: ^8.0.0
+
+  # Execute code after the first layout of your widget has been performed, i.e. after the first frame has been displayed.
+  after_layout: ^1.2.0
+
+  # A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.
+  flutter_lints: ^2.0.1
+
+flutter:

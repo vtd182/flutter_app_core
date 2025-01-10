@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - avoid_void_async
+    - unawaited_futures
+    - unnecessary_await_in_return
